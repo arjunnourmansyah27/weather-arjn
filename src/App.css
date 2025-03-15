@@ -62,3 +62,14 @@ html {
 	color: #777;
 }
 
+.icon-temp {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #1e2432;
+	text-align: center;
+}
+
+.deg {
+	font-size: 1.3rem;
+	vertical-align: super;
+}
