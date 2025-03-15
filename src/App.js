@@ -4,6 +4,7 @@ import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFrown } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
+import Clock from './Clock';
 
 function ArjnWeatherApp() {
 	const [input, setInput] = useState('');
@@ -75,6 +76,7 @@ function ArjnWeatherApp() {
 			<h1 className="app-name">
 				Arjn Weather App
 			</h1>
+      <Clock />
 			<div className="search-bar">
 				<input
 					type="text"
