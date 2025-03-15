@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFrown } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 import Clock from './Clock';
+import LocationWeather from './LocationWeather';
 
 function ArjnWeatherApp() {
 	const [input, setInput] = useState('');
@@ -74,9 +75,10 @@ function ArjnWeatherApp() {
 	return (
 		<div className="App">
 			<h1 className="app-name">
-				Arjn Weather App
+				Arjn Weather App🌤️
 			</h1>
       <Clock />
+      <LocationWeather />
 			<div className="search-bar">
 				<input
 					type="text"
@@ -88,6 +90,7 @@ function ArjnWeatherApp() {
 					onKeyPress={search}
 				/>
 			</div>
+      
 			{weather.loading && (
 				<>
 					<br />
