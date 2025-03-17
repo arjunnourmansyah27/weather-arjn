@@ -37,7 +37,7 @@ function LocationWeather() {
             {weather.loading && (
                 <>
                     <br />
-                    <Oval type="Oval" color="#009DFF" height={50} width={50} />
+                    <Oval type="Oval" color="#009DFF" secondaryColor="#A9A9A9" height={50} width={50} />
                 </>
             )}
             {weather.error && (
