@@ -17,19 +17,9 @@ function ArjnWeatherApp() {
 
 	const toDateFunction = () => {
 		const months = [
-			'January',
-			'February',
-			'March',
-			'April',
-			'May',
-			'June',
-			'July',
-			'August',
-			'September',
-			'October',
-			'November',
-			'December',
-		];
+			'January','February','March','April','May','June','July',
+			'August','September','October','November','December',];
+      
 		const WeekDays = [
 			'Sunday',
 			'Monday',
@@ -94,8 +84,7 @@ function ArjnWeatherApp() {
 			{weather.loading && (
 				<>
 					<br />
-					<br />
-					<Oval type="Oval" color="black" height={100} width={100} />
+					<Oval type="Oval" color="#009DFF" secondaryColor="#A9A9A9" height={50} width={50} />
 				</>
 			)}
 			{weather.error && (
