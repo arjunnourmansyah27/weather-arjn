@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Oval } from 'react-loader-spinner';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFrown } from '@fortawesome/free-solid-svg-icons';
-import './App.css';
+import './Global.css';
 
 function LocationWeather() {
     const [weather, setWeather] = useState({ loading: true, data: null, error: false });
